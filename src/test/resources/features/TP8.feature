@@ -3,7 +3,8 @@
 
     Background:
       Given base url $(env.base_url_clockify)
-      And header x-api-key = OGZmNjE1M2UtOGYyYS00ZmEzLTgxNzYtMzhkNDU2ZDBjY2Iy
+      And header x-api-key = $(env.api_key_clockify)
+
 
     @GetAllWorkspaces @Automated
       Scenario: Get all workspaces
