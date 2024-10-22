@@ -1,0 +1,17 @@
+{
+  "archived": true,
+  "billable": true,
+  "clientId": "67170f7cd383a7665da8811c",
+  "color": "#000000",
+  "costRate": {
+    "amount": 20000,
+    "since": "2020-01-01T00:00:00Z"
+  },
+  "hourlyRate": {
+    "amount": 20000,
+    "since": "2020-01-01T00:00:00Z"
+  },
+  "isPublic": true,
+  "name": "Software Development",
+  "note": "This is a sample note for the project."
+}

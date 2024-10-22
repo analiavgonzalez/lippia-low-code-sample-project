@@ -1,0 +1,53 @@
+{
+  "billable": true,
+  "clientId": "67170f7cd383a7665da8811c",
+  "color": "#000000",
+  "estimate": {
+    "estimate": "PT1H30M",
+    "type": "AUTO"
+  },
+  "hourlyRate": {
+    "amount": 55000,
+    "since": "2024-05-09T00:00:00Z"
+  },
+  "isPublic": true,
+  "memberships": [
+    {
+      "hourlyRate": {
+        "amount": 20000,
+        "since": "2020-01-01T00:00:00Z"
+      },
+      "membershipStatus": "PENDING",
+      "membershipType": "PROJECT",
+      "targetId": "78a687e29ae1f428e7ebe303",
+      "userId": "66281bcb24e5bf66b64d6538"
+    }
+  ],
+  "name": "TP8",
+  "note": "This is a test.",
+  "tasks": [
+    {
+      "assigneeId": "string",
+      "assigneeIds": [
+        "66281bcb24e5bf66b64d6538"
+      ],
+      "billable": true,
+      "budgetEstimate": 10000,
+      "costRate": {
+        "amount": 2000,
+        "since": "2020-01-01T00:00:00Z",
+        "sinceAsInstant": "2019-08-24T14:15:22Z"
+      },
+      "estimate": "PT1H30M",
+      "hourlyRate": {
+        "amount": 20000,
+        "since": "2020-01-01T00:00:00Z"
+      },
+      "id": "57a687e29ae1f428e7ebe107",
+      "name": "Bugfixing",
+      "projectId": "5b641568b07987035750505e",
+      "status": "DONE",
+      "userGroupIds": []
+    }
+  ]
+}
