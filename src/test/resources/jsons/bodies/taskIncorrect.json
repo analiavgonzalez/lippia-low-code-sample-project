@@ -1,14 +1,14 @@
 {
   "billable": true,
-  "clientId": "663d6b5c0a3b3a2da285cd28",
+  "clientId": "67195462f251712419af99ff",
   "color": "#000000",
   "estimate": {
     "estimate": "PT1H30M",
     "type": "AUTO"
   },
   "hourlyRate": {
-    "amount": 20000,
-    "since": "2020-01-01T00:00:00Z"
+    "amount": 55000,
+    "since": "2024-05-09T00:00:00Z"
   },
   "isPublic": true,
   "memberships": [
@@ -19,16 +19,18 @@
       },
       "membershipStatus": "PENDING",
       "membershipType": "PROJECT",
-      "targetId": "671952a643cb455e942acff9",
+      "targetId": "78a687e29ae1f428e7ebe303",
       "userId": "671952a643cb455e942acff9"
     }
   ],
-  "name": "Test-Anii",
-  "note": "This is a sample note for the project.",
+  "name": "TP8",
+  "note": "This is a test.",
   "tasks": [
     {
       "assigneeId": "string",
-      "assigneeIds": [],
+      "assigneeIds": [
+        "671952a643cb455e942acff9"
+      ],
       "billable": true,
       "budgetEstimate": 10000,
       "costRate": {
@@ -44,7 +46,7 @@
       "id": "57a687e29ae1f428e7ebe107",
       "name": "Bugfixing",
       "projectId": "5b641568b07987035750505e",
-      "status": "DONE",
+      "status": "Pending",
       "userGroupIds": []
     }
   ]
