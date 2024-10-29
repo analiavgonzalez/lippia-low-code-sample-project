@@ -1,4 +1,4 @@
-@TPN8
+@Workspaces
   Feature: Projects
 
     Background:
