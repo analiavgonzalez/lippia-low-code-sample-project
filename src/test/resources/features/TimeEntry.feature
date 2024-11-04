@@ -9,7 +9,7 @@
 
 
   #a. Consultar las horas registradas.
-    @GetAllTimeEntries
+    @GetAllTimeEntries @Smoke
     Scenario: Get all time entries
       Given call Workspace.feature@GetAllWorkspaces
       And endpoint v1/workspaces/{{workspaceId}}/user/{{userid}}/time-entries
@@ -18,7 +18,7 @@
 
 
   #  b. Agregar horas a un proyecto.
-    @AddTimeEntry
+    @AddTimeEntry @Smoke
     Scenario: Add Time Entry
       Given call Workspace.feature@GetAllWorkspaces
       And endpoint v1/workspaces/{{workspaceId}}/user/{{userid}}/time-entries
@@ -49,7 +49,7 @@
 
 
   #  c. Editar un campo de algún registro de hora.
-    @EditTimeEntry
+    @EditTimeEntry @Smoke
     Scenario: Edit Time Entry
       Given call TimeEntry.feature@AddTimeEntry
       And endpoint v1/workspaces/{{workspaceId}}/time-entries/{{timeEntryId}}
